@@ -1,13 +1,7 @@
 {
-  "name": "macaca-wd",
-  "version": "4.0.3",
-  "description": "Macaca webdirver API for Node.js",
-  "keywords": [
-    "macaca",
-    "webdriver",
-    "wd",
-    "Node.js"
-  ],
+  "name": "macaca-wd-mynt",
+  "version": "1.0.1",
+  "description": "[![NPM version][npm-image]][npm-url] [![Package quality][quality-image]][quality-url] [![build status][CI-image]][CI-url] [![Test coverage][codecov-image]][codecov-url] [![node version][node-image]][node-url]",
   "files": [
     "lib/**/*.js",
     "wd/**/*.js",
@@ -16,8 +10,15 @@
   "main": "./lib/macaca-wd.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/macacajs/macaca-wd.git"
+    "url": "git+https://github.com/overlight666/macaca-wd-mynt.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overlight666/macaca-wd-mynt/issues"
+  },
+  "homepage": "https://github.com/overlight666/macaca-wd-mynt#readme",
   "dependencies": {
     "archiver": "~0.14.0",
     "async": "~1.0.0",
@@ -28,6 +29,7 @@
     "dom-event-simulate": "^1.0.0",
     "lodash": "~3.9.3",
     "macaca-ai-engine-mynt": "^1.0.0",
+    "macaca-reporter-mynt": "^1.0.0",
     "mkdirp": "^0.5.1",
     "q": "~1.4.1",
     "react-router": "4",
@@ -58,12 +60,5 @@
     "test": "mocha",
     "lint": "eslint --fix lib test",
     "contributor": "git-contributor"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
-  "homepage": "https://github.com/macacajs/macaca-wd",
-  "license": "MIT"
+  }
 }
